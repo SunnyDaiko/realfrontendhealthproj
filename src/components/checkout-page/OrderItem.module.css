@@ -1,0 +1,118 @@
+p {
+  color: #666666;
+}
+
+.buttonContainer {
+  display: inline !important;
+  left: 18em;
+  position: relative !important;
+  top: 1em;
+}
+
+.cancelButton {
+  background-color: #ccc !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: black !important;
+  margin-right: 10px !important;
+}
+
+.cancelButton:hover {
+  background-color: #bbb !important;
+}
+
+.inputQuantity {
+  height: .5em;
+  margin-left: 1em;
+  width: 3.5em;
+}
+
+.itemTitle {
+  font-weight: 700;
+}
+
+.modalContainer {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+  margin-left: 33.3vw;
+  margin-top: 33.3vh;
+  width: 27vw;
+  
+}
+
+.modalContent {
+  height: auto;
+  padding-top: 2em;
+}
+
+.orderItem {
+  align-items: center;
+  display:grid;
+  gap: 0px 1em;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.price {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  min-width: 4em;
+}
+
+.price p {
+  margin-left: 1em;
+  padding-right: .7em;
+}
+
+.proceedButton {
+  background-color: #007bff !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
+
+.proceedButton:hover {
+  background-color: #0069D9 !important;
+}
+
+.trashCan {
+  align-self: flex-end !important;
+  justify-content: right !important;
+  max-width: 40px !important;
+  padding-right: .3em !important;
+}
+
+.trashCan :hover {
+  justify-content: right !important;
+}
+
+@media (min-resolution: 120dpi) and (max-resolution: 139dpi) {
+  /* CSS rules for screens scaled to 125% */
+  .buttonContainer {
+    display: inline !important;
+    left: 18em;
+    position: relative !important;
+    top: .5em;
+  }
+
+  .modalContainer {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    height: 16.5vh;
+    justify-content: center;
+    margin-left: 33.3vw;
+    margin-top: 33.3vh;
+    width: 33.3vw;
+  }
+  
+  .modalContent {
+    height: auto;
+    padding-top: 1.5em;
+  }
+}

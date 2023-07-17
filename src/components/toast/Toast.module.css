@@ -1,0 +1,8 @@
+.toastButton {
+    background-color: #ffffff !important; 
+    border-radius: 5px !important;
+    color: #000000 !important; 
+    margin-left: 25px !important;
+    max-width: 120px !important;
+    padding: 5px 0px !important;
+}

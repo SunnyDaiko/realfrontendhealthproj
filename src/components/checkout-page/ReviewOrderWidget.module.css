@@ -1,0 +1,13 @@
+img {
+  max-width: 100px;
+}
+
+.price {
+  justify-self: end;
+  padding-right: .7em;
+}
+
+.subtotal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

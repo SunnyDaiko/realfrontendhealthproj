@@ -1,0 +1,114 @@
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="radio"] {
+  height: 13px;
+  width: 13px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 430px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.submitButton:hover {
+  background-color: #0069d9;
+}
+
+.cancelButton {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 330px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  position: fixed;
+}
+
+.cancelButton:hover {
+  background-color: #bbb;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+.modal {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 25;
+}
+
+.modalContent {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  padding: 20px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: -1.5px;
+}
+
+.typeGroup {
+  margin-bottom: 20px;
+  margin-right: -12.3px;
+  margin-left: -1.5px;
+}
+
+.toast {
+  background-color: #ff6961;
+  border-radius: 5px;
+  bottom: 20px;
+  color: white;
+  left: 50%;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.modalTitle{
+  text-align: left;
+}

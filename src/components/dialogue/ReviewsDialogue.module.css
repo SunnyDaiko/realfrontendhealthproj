@@ -1,0 +1,50 @@
+ .close {
+  bottom: 690px;
+  left: 8px;
+  color: black;
+ }
+ 
+ .dTitle {
+  margin-top: 20px;
+ }
+
+ .dialogContent {
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+ .dropdown {
+  margin-bottom: 15px;
+  margin-left: 410px;
+ }
+
+ .form {
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+
+.info {
+  margin-top: 0px;
+}
+
+.productStar {
+  color: gold;
+  transform: translateY(4px);
+}
+
+.reviewsFor {
+  margin-bottom: 20px;
+}
+
+.revTitle {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.star {
+  color: gold;
+  margin-bottom: -25px;
+  transform: translateY(-15px);
+}
+  

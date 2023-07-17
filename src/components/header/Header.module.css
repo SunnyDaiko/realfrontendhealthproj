@@ -1,0 +1,46 @@
+.actions {
+  align-items: center;
+  display: flex;
+}
+
+.avatar {
+  margin-left: .5em;
+  margin-right: 1em;
+}
+
+.cart {
+  color: white;
+  margin-left: 80vw;
+}
+
+.header {
+  background-color: #63696c;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 5.625em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 10;
+  padding-right: 0.5em;
+}
+
+.logo {
+  align-items: center;
+  border-radius: 0.3125em;
+  display: flex;
+  height: 3.75em;
+  width: 10em;
+  margin-left: 1.25em;
+}
+
+.cartIcon {
+  color: white;
+  font-size: 2.1875em !important;
+}
+
+.login {
+  margin-right: 2.1875em;
+}
